@@ -56,3 +56,14 @@ certificatesResolvers:
 
 ping: {}
 ```
+
+## Step 3 : update accordingly traefik config in docker-compose.overrid.yml
+In docker-compose.overide.yml,
+- We can comment the ` traefik_me_certificateèdowlader` block ( optimal but not useful anymore)
+- add a volume named`acme`
+- For`geochestra-127-0-1-1.traefik.me`service:
+  - comment the`depends_on` section
+  -change the `volumre` section for:
+  ```
+  
+  ```
