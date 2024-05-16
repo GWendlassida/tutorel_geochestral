@@ -3,7 +3,7 @@
 Composition offered by the geochestra comminty
 
 ##  Step 1 : clone the official repo
-```
+```bash
 Création d’un dossier georchestra : mkdir -p dev/idgeo/georchestra
 Ensuite se mettre dans le répertoire de travail :  cd idgeo/georchestra/
 Installation de GIT: sudo apt install git
